@@ -9,4 +9,3 @@ if __name__ == "__main__":
         total += int(i)
 
     print(" {} ".format(total))
-~                                                               ~                                     
