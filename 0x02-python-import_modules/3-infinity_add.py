@@ -5,7 +5,8 @@ if __name__ == "__main__":
 
     total = 0
 
-    for i in argv[1:]:
-        total += int(i)
+    x = len(argv) - 1
 
-    print(" {} ".format(total))
+    for i in range(1, x+1):
+        total += int(argv[i])
+    print("{}". format(total))
